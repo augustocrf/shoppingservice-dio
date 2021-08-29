@@ -17,7 +17,6 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
-	annotationProcessor("org.projectlombok", "lombok", "1.18.20")
 	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
