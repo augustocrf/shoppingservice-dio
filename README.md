@@ -1,4 +1,8 @@
 # Project Shoppingservice Dio
 Construindo um projeto com arquittura baseada em microsserviços usando Spring Cloud
 
-Java | Spring Boot | Spring Cloud | Elastic Search | Redis   
+Arquitetura
+
+![Image Swagger](https://github.com/augustocrf/shoppingservice-dio/arquitetura_shoppingservice.PNG)
+
+Java | Spring Boot | Spring Cloud | Elastic Search | Redis | Eurake Serve-Client  
