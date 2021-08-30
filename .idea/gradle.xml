@@ -12,8 +12,11 @@
             </builds>
           </compositeBuild>
         </compositeConfiguration>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/config-server" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Gradle/gradle-6.9.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/config-server" />
@@ -22,7 +25,20 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gateway" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Gradle/gradle-6.9.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/product-catalog" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Gradle/gradle-6.9.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/product-catalog" />
@@ -30,8 +46,11 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/service-discovery" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Gradle/gradle-6.9.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/service-discovery" />
@@ -47,8 +66,11 @@
             </builds>
           </compositeBuild>
         </compositeConfiguration>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/shopping-cart" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../Gradle/gradle-6.9.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/shopping-cart" />

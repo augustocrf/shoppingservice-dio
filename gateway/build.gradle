@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'br.com.acrf'
+group = 'br.com.acrf.shoppingservice'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '16'
 
@@ -13,21 +13,14 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', "Hoxton.SR3")
+	set('springCloudVersion', "2020.0.3")
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
-	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
-	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-
-	compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
-
-	testImplementation('org.springframework.boot:spring-boot-starter-test') {
-		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
-	}
+	implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 dependencyManagement {
