@@ -3,6 +3,6 @@ Construindo um projeto com arquittura baseada em microsserviços usando Spring C
 
 Arquitetura
 
-![Image Swagger](https://github.com/augustocrf/shoppingservice-dio/arquitetura_shoppingservice.PNG)
+![Image Arquitetura](https://github.com/augustocrf/shoppingservice-dio/blob/main/arquitetura_shoppingservice.PNG)
 
 Java | Spring Boot | Spring Cloud | Elastic Search | Redis | Eurake Serve-Client  
